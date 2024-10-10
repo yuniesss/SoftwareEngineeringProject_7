@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>组队项目</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #333;
+        }
+        .header h1 {
+            font-size: 24px;
+            color: white;
+        }
+        .search-container {
+            display: flex;
+            align-items: center;
+        }
+        .search-container input {
+            width: 800px;
+            padding: 5px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .search-container button {
+            padding: 5px 10px;
+            font-size: 14px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+        .nav {
+            display: flex;
+            list-style-type: none;
+            margin-right: 20px;
+        }
+        .nav li {
+            margin-right: 10px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: white;
+        }
+        .container {
+            padding: 20px;
+        }
+        .project {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .project h2 {
+            margin-bottom: 10px;
+        }
+        .project p {
+            margin-bottom: 10px;
+        }
+        .project a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>代号：未名平台</h1>
+        <div class="search-container">
+            <input type="text" placeholder="搜索组队项目...">
+            <button>搜索</button>
+        </div>
+        <ul class="nav">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="teamup.html">组队</a></li>
+            <li><a href="#">问答</a></li>
+            <li><a href="#">个人中心</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h2>组队项目列表</h2>
+        <div class="project">
+            <h2>项目名称：机器学习研究小组</h2>
+            <p>描述：我们正在寻找对机器学习和人工智能感兴趣的同学一起研究深度学习模型。</p>
+            <a href="#">查看详情</a>
+        </div>
+        <div class="project">
+            <h2>项目名称：移动应用开发</h2>
+            <p>描述：需要有iOS和Android开发经验的开发者加入我们的移动应用项目。</p>
+            <a href="#">查看详情</a>
+        </div>
+        <div class="project">
+            <h2>项目名称：游戏制作团队</h2>
+            <p>描述：热爱游戏的你，是否想加入一个游戏制作团队，一起创造属于我们自己的游戏？</p>
+            <a href="#">查看详情</a>
+        </div>
+        <!-- 更多项目 -->
+    </div>
+</body>
+</html>
